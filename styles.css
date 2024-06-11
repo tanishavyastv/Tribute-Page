@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #998de9;
+    padding: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    background-color: rgb(34, 34, 58);
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 0 0 30px #998de9;
+    border-bottom: 2px solid #bfb7f0;
+}
+
+#img-div {
+    background-image: radial-gradient(#bfb7f0, #998de9, #2f285c);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 10px solid #2f285c;
+}
+
+#img-caption {
+    font-size: 18px;
+    font-weight: bold;
+    height: 2.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-info h2 {
+    background-color: #2f285c;
+    padding: 10px 20px;
+}
+
+#tribute-info p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+#tribute-info section {
+    margin-top: 3rem;
+}
+
+span, #quote, footer, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#quote {
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    background-color: #2f285c;
+    margin: 3rem -2rem -3rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+ul {
+    list-style-type: circle;
+}
