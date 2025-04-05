@@ -103,3 +103,24 @@ footer {
 ul {
     list-style-type: circle;
 }
+
+#image {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* optional limit */
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 10px solid #2f285c;
+}
+
+#img-div {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+ul#quote {
+    list-style-type: "💬 ";
+    padding-left: 2rem;
+}
