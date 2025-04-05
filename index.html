@@ -106,6 +106,10 @@
         </footer>
     </main>
     <button id="topBtn" title="Go to top">↑</button>
+    <script>
+    const topBtn = document.getElementById('topBtn');
+    topBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+</script>
 </body>
 
 </html>
