@@ -124,3 +124,26 @@ ul#quote {
     list-style-type: "💬 ";
     padding-left: 2rem;
 }
+
+a:hover {
+    color: #bfb7f0;
+    text-decoration: underline;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #2f285c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+#topBtn:hover {
+    background-color: #998de9;
+}
